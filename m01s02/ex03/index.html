@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="IE=edge"
+  >
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Everimente</title>
+</head>
+
+<!-- 2.Folosind metoda prompt() pe evenimentul onload al elementului body, afiseaza o alerta de tip prompt cu intrebarea:
+Care este numele tau?, apoi afiseaza raspunsul utilizatorului in consola. -->
+<!-- 7.Adauga pe eventul onload al elementului body o alerta care afiseaza textul: Bine ai venit pe acest site! -->
+
+<body onload="console.log(prompt('Care este numele tau?')); alert('Bine ai venit pe acest site!');">
+
+  <!-- 1.Foloseste pe evenimentul de click al butonului metoda alert() pentru a afisa mesajul “Bine ai venit la Pixellab!”. -->
+  <button
+    title="format"
+    onclick="alert('Bine ai venit la Pixellab!');"
+  >Hello!</button>
+
+  <!-- 3.Adauga un alt buton, iar in atributul lui onclick afiseaza o alerta cu textul: Bine ai apasat pe acest buton! -->
+  <button
+    title="format"
+    onclick="alert('Bine ai apasat pe acest buton!')"
+  >Ex 3</button>
+
+  <!-- 4.Adauga un alt buton pe al carui atribut onclick afisezi in consola suma numerelor 20 si 156.-->
+  <button onclick="console.log(20+156)">Ex 4</button>
+
+  <!-- 5.Adauga un alt buton pe al carui atribut onmouseover afisezi in consola textul: Apasa-ma! -->
+  <button
+    title="format"
+    onclick="alert('M-ai apasat!');"
+    onmouseover="console.log('Apasa-ma!');"
+  >Apasa-ma</button>
+
+  <!-- 6.Pe acest buton afiseaza la click o alerta cu: M-ai apasat! -->
+  <button onclick="alert('M-ai apasat!')">Ex6</button>
+
+</body>
+
+</html>

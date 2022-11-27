@@ -18,8 +18,32 @@
 </head>
 
 <body>
+  <!--
+Folosind acelasi cod calculeaza suprafata unei sfere,
+stiind ca formula este: 4πr2
+Adauga un input cu nume si id “radius”
+Foloseste Math.PI si  afiseaza rezultatul intr-un element cu id-ul “result”
+-->
+  <form action="/">
+    <fieldset>
+      <legend>Calculator suprafata sferei</legend>
 
+      <label for="radius">Raza</label>
+      <input
+        type="text"
+        name="radius"
+        id="radius"
+        placeholder="Raza"
+      > <br> <br>
 
+      <button
+        type="submit"
+        title="Calculeaza"
+      >Calculeaza</button>
+
+      <p>Rezultat: <span id="result"></span></p>
+    </fieldset>
+  </form>
 
   <script src="app.js"></script>
 

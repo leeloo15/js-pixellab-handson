@@ -18,7 +18,33 @@
 </head>
 
 <body>
+  <!--
+  Folosind acelasi cod, calculeaza aria unui cerc in functie de un input pentru raza,
+  stiind ca aceasta este πr2
+Adauga un input cu nume si id “radius”
+Foloseste Math.PI si  afiseaza rezultatul intr-un element cu id-ul “result”
+-->
 
+  <form action="/">
+    <fieldset>
+      <legend>Calculator Arie Cerc</legend>
+
+      <label for="radius">Raza:</label>
+      <input
+        type="text"
+        name="radius"
+        id="radius"
+        placeholder="raza"
+      >
+
+      <button
+        type="submit"
+        title="Calculeaza"
+      >Calculeaza</button>
+
+      <p>Rezultat: <span id="result"></span></p>
+    </fieldset>
+  </form>
 
 
   <script src="app.js"></script>

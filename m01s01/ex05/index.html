@@ -18,8 +18,37 @@
 </head>
 
 <body>
+  <!--
+Folosind acelasi cod, calculeaza volumul unei sfere, stiind ca formula pentru
+acesta este: 4/3 * πr3 . Foloseste metoda Math.pow si constanta PI
+Adauga un input cu nume si id “radius”
+Foloseste Math.PI si  afiseaza rezultatul intr-un element cu id-ul “result”
+-->
 
+  <fieldset>
+    <form action="/">
+      <legend>Calculator volum sfera</legend>
 
+      <label
+        for="radius"
+        name="radius"
+      >Radius:</label>
+      <input
+        type="text"
+        name="radius"
+        id="radius"
+        placeholder="raza cercului"
+      ><br><br>
+
+      <button
+        type="submit"
+        title="Calculeaza"
+      >Calculeaza</button>
+
+      <p>Rezultat: <span id="result"></span></p>
+
+    </form>
+  </fieldset>
 
   <script src="app.js"></script>
 

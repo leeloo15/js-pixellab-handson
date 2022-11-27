@@ -17,10 +17,39 @@
   <script src="https://tab.pixellab.ro/pixeltab-top.js"></script>
 </head>
 
-<body>
+
+<!--
+6.Afiseaza la incarcarea siteului o alerta pe care scrie: Bine ai venit.
+Modifica acest cod si transforma alerta intr-un prompt care afiseaza: Bine ai venit, cum te cheama?
+Afiseaza raspunsul utilizatorului in consola. -->
+
+<body onload="console.log(prompt('Bine ai venit, cum te cheama?'))">
+  <!--
+1 Creeaza dupa structura de fisiere de la exercitiul 01 un proiect cu un singur fisier JavaScript.
+Programul din fisier trebuie sa afiseze in consola propozitia: “Imi fac tema la JavaScript.”.
+-->
+
+  <!-- 2.In corpul documentului HTML adauga un element h1 cu textul Hello:
+pe care atunci cand dai click se va afisa o alerta cu numele tau. -->
+  <h1 onclick="alert('Lucretia')">Hello</h1>
+
+  <!-- 3.Adauga un buton care la click va afisa in consola: Am fost apasat. -->
+  <button onclick="console.log('Am fost apasat.')">Ex3</button>
+
+  <!-- 4.Adauga un alt buton care la click va afisa o alerta cu textul: Butonul a fost apasat. -->
+  <button onclick="alert('Butonul a fost apasat.')">Ex4</button>
+
+  <!-- 5.Adauga un alt buton care pe mouseover va afisa in consola textul: Ai vrea sa apesi acest buton?
+Cand butonul este apasat afiseaza o alerta de tip prompt care sa ceara numele utilizatorului.
+Afiseaza numele introdus in consola. -->
+  <button
+    onmouseover="console.log('Ai vrea sa apesi acest buton?');"
+    onclick="console.log(prompt('Care e numele tau?'))"
+  >Ex5</button>
 
 
 
+  <script src="./app.js"></script>
 
   <div
     class="pixeltab-host"
