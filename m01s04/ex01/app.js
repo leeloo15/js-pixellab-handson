@@ -13,7 +13,9 @@
 // console.log(message);
 // messageElement.innerText = message;
 
-//3. Folosind metoda prompt() afiseaza in pagina mesajul: “Numarul introdus este mai mic | mai mare decat 20.”
+console.log(
+  `3. Folosind metoda prompt() afiseaza in pagina mesajul: “Numarul introdus este mai mic | mai mare decat 20.”`,
+);
 // var userInput = prompt('Introdu un numar');
 // var message = '';
 // var messageElement = document.getElementById('message');
@@ -58,9 +60,3 @@ if (userInput === null || userInput.trim().length === 0 || isNaN(number)) {
 
 console.log(message);
 messageElement.innerText = message;
-
-//4. Foloseste aceeasi metoda pentru a captura numele utilizatorului si pentru a afisa in document mesajul: “Numele meu este: xxx yyy.”
-//5. Folosind aceeasi metoda afiseaza in document propozitia: “Numele introdus are xxx caractere.”
-// Inlocuieste spatiile cu stringul gol pentru a nu le numara. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll
-//6 Folosind prompt() si String.includes() afiseaza mesajul: “Numele introdus contine|nu contine litera a.”
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes
