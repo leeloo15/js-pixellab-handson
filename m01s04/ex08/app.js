@@ -11,6 +11,8 @@
 
 // console.warn(`2. Ce se intampla daca i este initializat cu valoarea 101?`);
 
+// nu intra in while deoarece conditia nu e adevarata
+
 //console.warn(`3. Modifica exemplul astfel incat bucla sa numere de la 1 la 99 (dar nu schimba numarul 100).`)
 // var i = 1;
 

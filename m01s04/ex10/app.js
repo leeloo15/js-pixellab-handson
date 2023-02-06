@@ -199,3 +199,24 @@ person.friends
     var name = friend.name + ' ' + friend.surname;
     console.log(name);
   });
+
+// pt ex15
+for (let i = 0; i < person.friends.length; i++) {
+  const outerFriend = person.friends[i];
+
+  for (let j = 0; j < person.friends.length; j++) {
+    const innerFriend = person.friends[j];
+
+    if (i === j) {
+      continue;
+    }
+
+    console.log(
+      `Intre ${outerFriend.name} si ${
+        innerFriend.name
+      } este o diferenta de ${Math.abs(
+        outerFriend.age - innerFriend.age,
+      )} ani.`,
+    );
+  }
+}
